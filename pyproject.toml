@@ -21,6 +21,9 @@ dependencies = [
 packages = [{include = "package_creation_tutorial", from = "src"}]
 
 
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
